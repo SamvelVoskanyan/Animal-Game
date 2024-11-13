@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Animal Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-container">
+    <div class="game-board"></div>
+    <div class="side-panel">
+        <div class="timer">⏰ 1:20</div>
+        <div class="current-animal">
+            <img src="./gif/loading-animals.gif" class="current-image" alt="Zebra">
+            <h2 class="current-title">ZEBRA</h2>
+        </div>
+        <div class="score">Score: 0</div>
+    </div>
+</div>
+
+<div class="loading">
+    <img src="./gif/loading-load.gif" alt="">
+    <h6>Loading...</h6>
+</div>
+<div class="game-over d-none">
+    <div class="game-over-window">
+        <h2>Game Over</h2>
+
+        <div class="score2">Score: <span class="over-score"></span></div>
+<button class="myStart">New Game</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
